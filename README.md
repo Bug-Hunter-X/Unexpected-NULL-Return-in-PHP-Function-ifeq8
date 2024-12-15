@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle bug in PHP: implicit return of NULL when a function doesn't have an explicit return statement in all execution paths. The `bug.php` file shows the erroneous code, while `bugSolution.php` provides the corrected version.  The issue often leads to unexpected behavior in applications that don't handle NULL returns gracefully.
